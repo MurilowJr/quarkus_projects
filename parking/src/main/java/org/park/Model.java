@@ -10,6 +10,8 @@ public class Model {
 
 	public Model() {
 		addCarro(new Carro("AAA1111", new Especificacao("gol", "vw", "verde")));
+		addCarro(new Carro("ABC1234", new Especificacao("gol", "vw", "vermelho")));
+		addCarro(new Carro("DEC0014", new Especificacao("fox", "vw", "vermelho")));
 	}
 	
 	public void addCarro(Carro carro){
